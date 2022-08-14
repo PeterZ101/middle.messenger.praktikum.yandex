@@ -5,7 +5,7 @@
   "scripts": {
     "start": "concurrently \"npm run build\" \"npm run server\"",
     "dev": "parcel index.twig --port 3000 --open",
-    "build": "parcel build index.twig",
+    "build": "parcel build index.twig --no-minify",
     "server": "node app.js"
   },
   "repository": {
