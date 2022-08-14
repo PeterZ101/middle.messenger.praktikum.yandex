@@ -1,4 +1,4 @@
-import "./main.scss";
+import "./css/main.scss";
 import { sum } from "./modules/sum";
 
 const root = document.querySelector("#root");
