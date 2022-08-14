@@ -26,11 +26,11 @@
     "express": "^4.18.1",
     "parcel-plugin-twig": "^1.1.1",
     "postcss-scss": "^4.0.4",
-        "@parcel/transformer-sass": "^2.7.0",
-        "parcel": "^2.7.0",
-        "postcss": "^8.4.16",
-        "postcss-custom-properties": "^12.1.8",
-        "postcss-import": "^14.1.0",
-        "postcss-url": "^10.1.3"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.16",
+    "postcss-custom-properties": "^12.1.8",
+    "postcss-import": "^14.1.0",
+    "postcss-url": "^10.1.3"
   }
 }
