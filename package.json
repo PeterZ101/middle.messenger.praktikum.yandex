@@ -30,6 +30,7 @@
   "dependencies": {
     "concurrently": "^7.3.0",
     "express": "^4.18.1",
+    "parcel-plugin-twig": "^1.1.1",
     "postcss-scss": "^4.0.4"
   }
 }
