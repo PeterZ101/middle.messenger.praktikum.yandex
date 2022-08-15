@@ -6,7 +6,7 @@
     "start": "concurrently \"npm run build\" \"npm run server\"",
     "dev": "parcel src/index.twig --port 3000 --open",
     "build": "parcel build src/index.twig --no-minify",
-    "server": "node app.js"
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
