@@ -1,0 +1,13 @@
+ul.main-list {
+  margin: 20px auto auto 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: min-content;
+  li {
+    width: min-content;
+    height: 40px;
+    font-size: 30px;
+  }
+}
