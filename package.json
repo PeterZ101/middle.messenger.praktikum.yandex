@@ -24,8 +24,10 @@
     "parcel-plugin-twig": "^1.1.1"
   },
   "dependencies": {
+    "@christian-beckmann/parcel-transformer-twig": "^0.1.0",
     "concurrently": "^7.3.0",
     "express": "^4.18.1",
+    "parcel-plugin-handlebars": "^0.4.4",
     "sass": "^1.54.4"
   }
 }
