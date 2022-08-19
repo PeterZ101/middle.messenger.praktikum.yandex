@@ -3,7 +3,16 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.body-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
 $blue: #3369F3;
 $red: #FF2F2F;
 $grey: #999;
+$grey-ligh: #e3e3e3;
 $white: #fff;

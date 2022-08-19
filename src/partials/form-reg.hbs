@@ -1,0 +1,14 @@
+<main class="form">
+  <h1 class="form-title">{{title}}</h1>
+    {{> form-input-type name="Email" type="email" input-error="Invalid email"}}
+    {{> form-input-type name="Login" type="text" input-error="Login already exists"}}
+    {{> form-input-type name="First Name" type="text"}}
+    {{> form-input-type name="Second Name" type="text"}}
+    {{> form-input-type name="Phone number" type="tel"}}
+    {{> form-input-type name="Password" type="password" input-error=""}}
+    {{> form-input-type name="Password confirm" type="password" input-error="Invalid password"}}
+
+    {{> form-input-submit value="Sign Up"}}
+  
+  <a href="{{link}}" class="form-link">{{link-text}}</a>
+</main>

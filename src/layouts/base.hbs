@@ -7,9 +7,11 @@
     {{> title}}
   </title>
 </head>
-<body>
+{{#block "body"}}
+<body class="{{bodyclass}}">
   {{> header}}
   {{{body}}}
   {{> footer}}
 </body>
+{{/block}}
 </html>
