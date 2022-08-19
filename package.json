@@ -5,7 +5,7 @@
   "scripts": {
     "start": "concurrently \"npm run build\" \"npm run server\"",
     "dev": "parcel src/pages/index.hbs --no-cache --no-source-maps --port 3000 --open",
-    "build": "parcel build src/pages/index.hbs --no-minify",
+    "build": "parcel build src/pages/index.hbs --no-minify --no-source-maps",
     "server": "node server.js"
   },
   "repository": {
