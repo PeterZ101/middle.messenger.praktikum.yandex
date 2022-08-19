@@ -1,8 +1,12 @@
 {{!< base}}
 
 <main>
-  <h1>Welcome from index.hbs</h1>
-  <a href="./about.hbs">About</a>
-  <br />
-  {{> button}}
+  <main class="main">
+    <h1>{{index.title}}</h1>
+    <ul class="list">
+      <li><a href="./auth.hbs">{{index.auth}}</a></li>
+      <li><a href="./error.hbs">{{index.e404}}</a></li>
+      <li><a href="./error.hbs">{{index.e404}}</a></li>
+    </ul>
+  </main>
 </main>

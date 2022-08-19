@@ -4,7 +4,7 @@
   "description": "Макет полностью скопирован с яндекс практикума [link](https://www.figma.com/file/8wOs28OU2F9fiAcGoGT5uk/maket-(yandex-copy)?node-id=0%3A1)",
   "scripts": {
     "start": "concurrently \"npm run build\" \"npm run server\"",
-    "dev": "parcel src/pages/index.hbs --port 3000 --open",
+    "dev": "parcel src/pages/index.hbs --no-cache --port 3000 --open",
     "build": "parcel build src/pages/index.hbs --no-minify",
     "server": "node server.js"
   },
