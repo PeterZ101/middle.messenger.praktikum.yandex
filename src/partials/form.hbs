@@ -1,0 +1,10 @@
+<main class="form">
+  <h1 class="form-title">{{title}}</h1>
+    {{> form-input-type name="Login" type="text" input-error="Invalid login"}}
+    {{> form-input-type name="Password" type="password" input-error="Invalid password"}}
+
+
+    {{> form-input-submit value="Sign In"}}
+  
+  <a href="{{link}}" class="form-link">{{link-text}}</a>
+</main>
