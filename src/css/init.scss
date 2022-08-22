@@ -1,20 +1,25 @@
-html, body {
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 html {
-    font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .body-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-$blue: #3369F3;
-$red: #FF2F2F;
+$blue: #3369f3;
+$red: #ff2f2f;
 $grey: #999;
 $grey-ligh: #e3e3e3;
 $white: #fff;
+
+.chat {
+  background-color: aliceblue;
+}

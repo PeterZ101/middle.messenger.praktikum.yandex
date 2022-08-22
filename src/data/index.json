@@ -3,5 +3,7 @@
     "reg": "Sign Up",
     "e404": "404",
     "e500": "500",
-    "title": "Pages"
+    "title": "Pages",
+    "chat": "Chat",
+    "profile": "Profile"
 }

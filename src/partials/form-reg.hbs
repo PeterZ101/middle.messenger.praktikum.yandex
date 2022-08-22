@@ -1,12 +1,12 @@
 <main class="form">
   <h1 class="form-title">{{title}}</h1>
-    {{> form-input-type name="Email" type="email" input-error="Invalid email"}}
-    {{> form-input-type name="Login" type="text" input-error="Login already exists"}}
-    {{> form-input-type name="First Name" type="text"}}
-    {{> form-input-type name="Second Name" type="text"}}
-    {{> form-input-type name="Phone number" type="tel"}}
-    {{> form-input-type name="Password" type="password" input-error=""}}
-    {{> form-input-type name="Password confirm" type="password" input-error="Invalid password"}}
+    {{> form-input-type name="Email" type="email" input-error="Invalid email" class="input-error" id="email"}}
+    {{> form-input-type name="Login" type="text" input-error="Login already exists" id="login"}}
+    {{> form-input-type name="First Name" type="text" id="first-name" name="first-name"}}
+    {{> form-input-type name="Second Name" type="text"  id="second-name" name="second-name"}}
+    {{> form-input-type name="Phone number" type="tel"  id="phone" name="phone"}}
+    {{> form-input-type name="Password" type="password" input-error=""  id="password" name="password"}}
+    {{> form-input-type name="Password confirm" type="password" input-error=""  id="pass-confirm" name="pass-confirm"}}
 
     {{> form-input-submit value="Sign Up"}}
   
